@@ -5,12 +5,12 @@
 int main() {
     int n;
     std::cin >> n;
-    array_list l1;
+    array_list l1; // Objeto
     auto beg = std::chrono::high_resolution_clock::now();
     for (int i = 0; i < n; ++i) {
         int x;
         std::cin >> x;
-        l1.push_front(x);
+        l1.push_front(x); // adicionando elemento a l1
     }
     auto end = std::chrono::high_resolution_clock::now();
     auto elapsed = end - beg;
