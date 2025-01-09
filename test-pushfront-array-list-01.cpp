@@ -1,13 +1,13 @@
 #include <iostream>
 #include <chrono>
-#include "array_list.hpp"
+#include "array_list3.hpp"
 
 int main() {
-    int n;
+    unsigned int n;
     std::cin >> n;
     array_list l1; // Objeto
     auto beg = std::chrono::high_resolution_clock::now();
-    for (int i = 0; i < n; ++i) {
+    for (unsigned int i = 0; i < n; ++i) {
         int x;
         std::cin >> x;
         l1.push_front(x); // adicionando elemento a l1

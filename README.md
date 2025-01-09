@@ -13,10 +13,10 @@ a que se propõe.
 
 Exemplo de como compilar o arquivo de teste de push_front em um
 'linked_list':
-  g++ -Wall -o test-pushfront-linked-list-01 test-pushfront-linked-list-01.cpp 
+  g++ -o test-pushfront-array-list-01 test-pushfront-array-list-01.cpp 
 
 Para executar:
-  ./test-pushfront-linked-list-01 < tests/push/e1.txt
+  ./test-pushfront-array-list-01 < tests/push/e1.txt
 
 São fornecidos 5 arquivos de base para o programa de teste 
 de inserção: e1.txt, e2.txt, e3.txt , e4.txt e e5.txt, 
