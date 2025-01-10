@@ -40,17 +40,11 @@ public:
             return false;
         if(this->size_ == this->capacity_) // caso não seja inválido, mas houver necessidade de aumentar a capacidade
             increase_capacity_();
-        int *new_array = this->data; // vetor para salvar os valores do vetor principal
-        for (unsigned int i = index ; i < this->size_ ; i++){ // inicia o loop no indice oferecido
+        for (unsigned int i = this->size_ ; i > index ; i--){ // inicia o loop no indice oferecido
             if (i == index){ // adicionando valor no index oferecido
-                new_array[index] = value;
-            }else{
-                new_array[i] = this->data[i];
+                this->data[i] = this->data[i-1]; // move os elementos de posição
             }
         }
-        delete [] this->data;
-        this->data = new_array; // colocando o novo vetor no vetor principal
-        this->size_++; // atualizando tamanho do vetor;
         return true;
     } 
     bool remove_at(unsigned int index) { // Remove elemento do índice index
@@ -91,13 +85,8 @@ public:
     bool pop_back() {// Remove um elemento do ``final'' do vetor
         if (0 == this->size_)
             return false; // Não removeu
-        int *new_array = new int[this->capacity_]; // cria novo vetor
-        for(unsigned int i = 0 ; i < this->size_-1 ; i++)    // for realizado até o penúltimo elemento
-            new_array[i] = data[i];
-        delete[] this->data; // limpa a memória
-        this->data = new_array; // salva no *vetor  'principal'
-        this->size_ --; // atualiza o size_
-        return true; // removeu
+        this->size_ --;   // atualiza o size_
+        return true;      // removeu
     } 
     bool pop_front(){ // Remove um elemento do ``início'' do vetor
         if (0 == this->size_)

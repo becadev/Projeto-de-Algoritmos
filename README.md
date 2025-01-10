@@ -30,7 +30,7 @@ Estes arquivos contém uma sequencia de números gerados de forma
 aleatória através do programa `gen_array.cpp`. 
 
 Para compilar o programa gen_array.c: 
-  g++ -Wall -o gen_array gen_array.cpp
+  g++ -Wall -o gen_array gera_num.cpp
 
 O programa `gen_array` recebe um valor inteiro `n`
 como parâmetro e gera um arquivo com `n` números 

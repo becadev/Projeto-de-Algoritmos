@@ -1,5 +1,4 @@
 # PUSH-FRONT:
-
 Testes ArrayList-1
 [INFO] Elapsed time for 5 pushes front: 2254
 [INFO] Elapsed time for 10 pushes front: 3096
@@ -20,17 +19,166 @@ Testes ArrayList-3
 [INFO] Elapsed time for 1000 pushes front: 1191269
 [INFO] Elapsed time for 2000 pushes front: 3779210
 [INFO] Elapsed time for 3000 pushes front: 7869691
+
 ##################################################
-#REMOVEAT
+# REMOVEAT
 Testes ArrayList-1
-t1:
+e1:
 [DEBUG] Tried to remove 10 element(s)
 [DEBUG] removed 10 element(s)
 [DEBUG] not removed 0 element(s)
 [INFO] Elapsed time for 10 remove_at success : 1593
-t2:
+e2:
 [DEBUG] Tried to remove 10 element(s)
 [DEBUG] removed 8 element(s)
 [DEBUG] not removed 2 element(s)
 [INFO] Elapsed time for 8 remove_at success : 1663
-t3:
+
+Testes ArrayList-2
+e1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 2555
+e2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 2765
+
+Testes ArrayList-3
+e1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 1522
+e2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 1623
+
+######################################
+# PUSH-BACK 
+
+Testes ArrayList-1:
+[INFO] Elapsed time for 5 pushes back: 2214
+[INFO] Elapsed time for 10 pushes front: 3707
+[INFO] Elapsed time for 1000 pushes front: 264935
+[INFO] Elapsed time for 2000 pushes front: 567981
+[INFO] Elapsed time for 3000 pushes front: 519741~
+
+Testes ArrayList-2:
+[INFO] Elapsed time for 5 pushes back: 2133
+[INFO] Elapsed time for 10 pushes back: 2645
+[INFO] Elapsed time for 1000 pushes back: 256840
+[INFO] Elapsed time for 2000 pushes back: 461271
+[INFO] Elapsed time for 3000 pushes back: 571146
+
+Testes ArrayList-3:
+[INFO] Elapsed time for 5 pushes back: 2104
+[INFO] Elapsed time for 10 pushes back: 3817
+[INFO] Elapsed time for 1000 pushes back: 217947
+[INFO] Elapsed time for 2000 pushes back: 418862
+[INFO] Elapsed time for 3000 pushes back: 646407
+
+################################################
+# Pop-back
+
+ArrayList-1
+[INFO] Elapsed time for True pop back: 2074
+[INFO] Elapsed time for True pop back: 2615
+[INFO] Elapsed time for True pop back: 152555
+[INFO] Elapsed time for True pop back: 344524
+[INFO] Elapsed time for True pop back: 784534
+
+ArrayList-2
+[INFO] Elapsed time for True pop back 3266
+[INFO] Elapsed time for True pop back 4438
+[INFO] Elapsed time for True pop back 230980
+[INFO] Elapsed time for True pop back 512815
+[INFO] Elapsed time for True pop back 569141
+
+ArrayList-3
+[INFO] Elapsed time for True pop back 2074
+[INFO] Elapsed time for True pop back 3727
+[INFO] Elapsed time for True pop back 147244
+[INFO] Elapsed time for True pop back 299288
+[INFO] Elapsed time for True pop back 579510
+
+################################################
+# Pop-front
+
+ArrayList-1
+[INFO] Elapsed time for True pop front 2014
+[INFO] Elapsed time for True pop front 2625
+[INFO] Elapsed time for True pop front 152565
+[INFO] Elapsed time for True pop front 352767
+[INFO] Elapsed time for True pop front 939691
+
+ArrayList-2
+[INFO] Elapsed time for True pop front 3436
+[INFO] Elapsed time for True pop front 2705
+[INFO] Elapsed time for True pop front 141815
+[INFO] Elapsed time for True pop front 558230
+[INFO] Elapsed time for True pop front 552198
+
+ArrayList-3
+[INFO] Elapsed time for True pop front 2134
+[INFO] Elapsed time for True pop front 2705
+[INFO] Elapsed time for True pop front 144449
+[INFO] Elapsed time for True pop front 400466
+[INFO] Elapsed time for True pop front 566245
+
+################################################
+# Insert_at
+
+ArrayList-1
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 4408
+[INFO] Elapsed time for True, the value 15 Insert at 5: 4107
+[INFO] Elapsed time for True, the value 1 Insert at 55: 180456
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 426464
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 646424
+
+ArrayList-2
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 3947
+[INFO] Elapsed time for True, the value 15 Insert at 5: 3967
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 563450
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 548071
+
+ArrayList-3
+
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 3437
+[INFO] Elapsed time for True, the value 15 Insert at 5: 5009
+[INFO] Elapsed time for True, the value 15 Insert at 5: 5030
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 313394
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 560093
+
+################################################
+# Get At
+
+ArrayList-1
+[INFO] Elapsed time for -1 invalid index : 2324
+[INFO] Elapsed time for value index 5 is 20: 2926
+[INFO] Elapsed time for value index 55 is 1707: 151312
+[INFO] Elapsed time for value index 1991 is 745: 445631
+[INFO] Elapsed time for value index 2994 is 1757: 724750
+
+ArrayList-2
+[INFO] Elapsed time for -1 invalid index : 3487
+[INFO] Elapsed time for value index 5 is 20: 2915
+[INFO] Elapsed time for value index 55 is 1707: 139710
+[INFO] Elapsed time for value index 1991 is 745: 305248
+[INFO] Elapsed time for value index 2994 is 1757: 541298
+
+ArrayList-3
+[INFO] Elapsed time for -1 invalid index : 2345
+[INFO] Elapsed time for value index 5 is 20: 3847
+[INFO] Elapsed time for value index 55 is 1707: 145962
+[INFO] Elapsed time for value index 1991 is 745: 374508
+[INFO] Elapsed time for value index 2994 is 1757: 551788
+
+################################################
+# Remove
+
+ArrayList-1

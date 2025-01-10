@@ -3,3 +3,5 @@ ARRAY LISTs
 ./test-pushfront-array-list-01 < tests/push/e5.txt >> Resultado-ArrayList2.txt 2>&1
 ./test-pushfront-array-list-01 < tests/push/e5.txt >> Resultado-ArrayList3.txt 2>&1
 g++ -Wall -o test-pushfront-array-list-01 test-pushfront-array-list-01.cpp
+g++ -Wall -o test-removeat-array-list-01 test-removeat-array-list-01.cpp
+./test-removeat-array-list-01 < tests/removeat/e3.txt >> Resultado-ArrayList3.txt 2>&1
