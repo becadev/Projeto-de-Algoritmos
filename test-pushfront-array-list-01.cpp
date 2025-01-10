@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list3.hpp"
+#include "array_list1.hpp"
 
 int main() {
     unsigned int n;
@@ -12,14 +12,14 @@ int main() {
         std::cin >> x;
         l1.push_front(x); // adicionando elemento a l1
     }
-    auto end = std::chrono::high_resolution_clock::now();
+    auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
     if (not (l1.size() == n)) {
         std::cerr << "[ERROR] check push_front method!\n";
         exit(1);
     }
     std::cerr << "[INFO] " << "Elapsed time for "
-        << n << " pushes front :"
+        << n << " pushes front: "
         << elapsed.count() << std::endl;
     return 0;
 }

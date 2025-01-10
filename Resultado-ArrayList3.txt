@@ -1,0 +1,36 @@
+# PUSH-FRONT:
+
+Testes ArrayList-1
+[INFO] Elapsed time for 5 pushes front: 2254
+[INFO] Elapsed time for 10 pushes front: 3096
+[INFO] Elapsed time for 1000 pushes front: 1053382
+[INFO] Elapsed time for 2000 pushes front: 3834583
+[INFO] Elapsed time for 3000 pushes front: 8040479
+
+Testes ArrayList-2
+[INFO] Elapsed time for 5 pushes front: 2264
+[INFO] Elapsed time for 10 pushes front: 3246
+[INFO] Elapsed time for 1000 pushes front: 1001105
+[INFO] Elapsed time for 2000 pushes front: 3827751
+[INFO] Elapsed time for 3000 pushes front: 7844591
+
+Testes ArrayList-3
+[INFO] Elapsed time for 5 pushes front: 2134
+[INFO] Elapsed time for 10 pushes front: 3937
+[INFO] Elapsed time for 1000 pushes front: 1191269
+[INFO] Elapsed time for 2000 pushes front: 3779210
+[INFO] Elapsed time for 3000 pushes front: 7869691
+##################################################
+#REMOVEAT
+Testes ArrayList-1
+t1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 1593
+t2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 1663
+t3:

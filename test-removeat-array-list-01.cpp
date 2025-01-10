@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list.hpp"
+#include "array_list1.hpp"
 
 int main() {
     unsigned int n;
@@ -15,7 +15,7 @@ int main() {
     unsigned int m;
     std::cin >> m;
     unsigned int removed = 0, not_removed = 0;
-    for (int i = 0; i < m; ++i) {
+    for (unsigned i = 0; i < m; ++i) {
         int x;
         std::cin >> x;
         if (l1.remove_at(x))
