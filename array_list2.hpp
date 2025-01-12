@@ -62,9 +62,7 @@ public:
         return this->data[index];
     }
     void clear() { // Remove todos os elementos, deixando o vetor no estado inicial
-        int *new_data = new int[8]; // vetor novo representando estado inicial
-        delete[] this->data; // deleta o vetor antigo
-        this->data = new_data; // vetor limpo
+        array_list();
     } 
     void push_back(int value) { // adiciona elemento ao final do vetor
         if (this->size_ == this->capacity_)
