@@ -36,7 +36,7 @@ O programa `gen_array` recebe um valor inteiro `n`
 como parâmetro e gera um arquivo com `n` números 
 gerados de forma aleatória. Para gerar um arquivo 
 com nome `meu_teste.txt`, com 1000 números inteiros:
-  ./gen_array 1000 > meu_teste.txt 
+  ./gen_array 10 > e1.txt 
 
 O arquivo gerado `meu_teste.txt` terá n+1 linhas, 
 a primeira com o valor 1000 e a 1000 com 

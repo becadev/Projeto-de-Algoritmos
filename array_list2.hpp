@@ -33,7 +33,7 @@ public:
     double percent_occupied() { // Retorna um valor entre 0.0 a 1.0 com o percentual de memória usada.
         if(this->size_ == 0)
             return 0.0;
-        return static_cast<double>((this->capacity_)/(this->size_))/100;
+        return static_cast<double>((this->capacity_)/(this->size_))/100.0;
     } 
     bool insert_at(unsigned int index, int value) { // Insere elemento no índice index
         if(index > this->size_) // se o index for maior que o tamanho do vetor, será inválido

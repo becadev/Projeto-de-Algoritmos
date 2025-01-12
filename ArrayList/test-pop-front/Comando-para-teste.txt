@@ -1,0 +1,1 @@
+./test-front-array-list-01 < tests/pop/e5.txt > e1.txt 2>&1
