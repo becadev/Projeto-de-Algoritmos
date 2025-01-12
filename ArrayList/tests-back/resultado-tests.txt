@@ -1,0 +1,22 @@
+# Back
+
+ArrayList-1
+[INFO] Elapsed time to return value 2, the last of the vector : 2064
+[INFO] Elapsed time to return value 13, the last of the vector : 2685
+[INFO] Elapsed time to return value 371, the last of the vector : 152886
+[INFO] Elapsed time to return value 3669, the last of the vector : 425665
+[INFO] Elapsed time to return value 450, the last of the vector : 786673
+
+ArrayList-2
+[INFO] Elapsed time to return value 2, the last of the vector : 2274
+[INFO] Elapsed time to return value 13, the last of the vector : 4238
+[INFO] Elapsed time to return value 371, the last of the vector : 140713
+[INFO] Elapsed time to return value 3669, the last of the vector : 374770
+[INFO] Elapsed time to return value 450, the last of the vector : 565156
+
+ArrayList-3
+[INFO] Elapsed time to return value 2, the last of the vector : 2194
+[INFO] Elapsed time to return value 13, the last of the vector : 3667
+[INFO] Elapsed time to return value 371, the last of the vector : 147565
+[INFO] Elapsed time to return value 3669, the last of the vector : 379609
+[INFO] Elapsed time to return value 450, the last of the vector : 456102

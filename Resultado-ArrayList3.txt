@@ -107,30 +107,6 @@ ArrayList-3
 [INFO] Elapsed time for True pop back 579510
 
 ################################################
-# Pop-front
-
-ArrayList-1
-[INFO] Elapsed time for True pop front 2014
-[INFO] Elapsed time for True pop front 2625
-[INFO] Elapsed time for True pop front 152565
-[INFO] Elapsed time for True pop front 352767
-[INFO] Elapsed time for True pop front 939691
-
-ArrayList-2
-[INFO] Elapsed time for True pop front 3436
-[INFO] Elapsed time for True pop front 2705
-[INFO] Elapsed time for True pop front 141815
-[INFO] Elapsed time for True pop front 558230
-[INFO] Elapsed time for True pop front 552198
-
-ArrayList-3
-[INFO] Elapsed time for True pop front 2134
-[INFO] Elapsed time for True pop front 2705
-[INFO] Elapsed time for True pop front 144449
-[INFO] Elapsed time for True pop front 400466
-[INFO] Elapsed time for True pop front 566245
-
-################################################
 # Insert_at
 
 ArrayList-1
@@ -268,29 +244,6 @@ ArrayList-3
 [INFO] Elapsed time to return value 3590, the first of the vector : 421517
 [INFO] Elapsed time to return value 2982, the first of the vector : 457454
 
-################################################
-# Back
-
-ArrayList-1
-[INFO] Elapsed time to return value 2, the last of the vector : 2064
-[INFO] Elapsed time to return value 13, the last of the vector : 2685
-[INFO] Elapsed time to return value 371, the last of the vector : 152886
-[INFO] Elapsed time to return value 3669, the last of the vector : 425665
-[INFO] Elapsed time to return value 450, the last of the vector : 786673
-
-ArrayList-2
-[INFO] Elapsed time to return value 2, the last of the vector : 2274
-[INFO] Elapsed time to return value 13, the last of the vector : 4238
-[INFO] Elapsed time to return value 371, the last of the vector : 140713
-[INFO] Elapsed time to return value 3669, the last of the vector : 374770
-[INFO] Elapsed time to return value 450, the last of the vector : 565156
-
-ArrayList-3
-[INFO] Elapsed time to return value 2, the last of the vector : 2194
-[INFO] Elapsed time to return value 13, the last of the vector : 3667
-[INFO] Elapsed time to return value 371, the last of the vector : 147565
-[INFO] Elapsed time to return value 3669, the last of the vector : 379609
-[INFO] Elapsed time to return value 450, the last of the vector : 456102
 
 ################################################
 # Sum
@@ -365,3 +318,8 @@ ArrayList-3
 [INFO] Elapsed time to clear the vector : 147435
 [INFO] Elapsed time to clear the vector : 401247
 [INFO] Elapsed time to clear the vector : 765179
+
+################################################
+# Size
+
+ArrayList-1

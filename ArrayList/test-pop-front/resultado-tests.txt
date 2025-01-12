@@ -1,0 +1,22 @@
+Pop-front
+
+ArrayList-1
+[INFO] Elapsed time for True pop front 2014
+[INFO] Elapsed time for True pop front 2625
+[INFO] Elapsed time for True pop front 152565
+[INFO] Elapsed time for True pop front 352767
+[INFO] Elapsed time for True pop front 939691
+
+ArrayList-2
+[INFO] Elapsed time for True pop front 3436
+[INFO] Elapsed time for True pop front 2705
+[INFO] Elapsed time for True pop front 141815
+[INFO] Elapsed time for True pop front 558230
+[INFO] Elapsed time for True pop front 552198
+
+ArrayList-3
+[INFO] Elapsed time for True pop front 2134
+[INFO] Elapsed time for True pop front 2705
+[INFO] Elapsed time for True pop front 144449
+[INFO] Elapsed time for True pop front 400466
+[INFO] Elapsed time for True pop front 566245

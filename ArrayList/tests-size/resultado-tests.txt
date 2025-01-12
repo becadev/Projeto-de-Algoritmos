@@ -1,0 +1,13 @@
+# Size
+
+ArrayList1
+[INFO] Elapsed time to return the size 15 of the vector : 3427
+[INFO] Elapsed time to return the size 30 of the vector : 6231
+
+ArrayList2
+[INFO] Elapsed time to return the size 15 of the vector : 4669
+[INFO] Elapsed time to return the size 30 of the vector : 6121
+
+ArrayList3
+[INFO] Elapsed time to return the size 15 of the vector : 5861
+[INFO] Elapsed time to return the size 30 of the vector : 7384
