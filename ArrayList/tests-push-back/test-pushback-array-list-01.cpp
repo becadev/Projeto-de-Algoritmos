@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list2.hpp"
+#include "array_list1.hpp"
 
 int main() {
     unsigned int n;
@@ -12,9 +12,10 @@ int main() {
         std::cin >> x;
         l1.push_back(x); // adicionando elemento ao final do vetor 
     }
+    int unsigned resultado = l1.size();
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
-    if (not (l1.size() == n)) {
+    if (not (resultado == n)) {
         std::cerr << "[ERROR] check push_back method!\n";
         exit(1);
     }

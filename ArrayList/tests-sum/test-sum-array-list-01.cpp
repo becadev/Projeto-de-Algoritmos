@@ -13,9 +13,10 @@ int main() {
         std::cin >> x;
         l1.push_back(x); // adicionando elemento ao final do vetor 
     }
+    int resultado = l1.sum();
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
 
-    std::cerr << "[INFO] " << "Elapsed time to return the sum " << l1.sum() << " of the vector " << ": " << elapsed.count() << std::endl;
+    std::cerr << "[INFO] " << "Elapsed time to return the sum " << resultado << " of the vector " << ": " << elapsed.count() << std::endl;
     return 0;
 }

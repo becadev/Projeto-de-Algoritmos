@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list2.hpp"
+#include "array_list1.hpp"
 
 int main() {
     unsigned int n;
@@ -15,10 +15,11 @@ int main() {
         std::cin >> x;
         l1.push_back(x); // adicionando elemento ao final do vetor 
     }
+    bool resultado = l1.remove(value);
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
 
-    if (l1.remove(value)){
+    if (resultado){
         std::cerr << "[INFO] " << "Elapsed time to remove value "
         << value  << ": " << elapsed.count() << std::endl;
     }else{

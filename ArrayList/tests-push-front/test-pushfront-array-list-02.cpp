@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list1.hpp"
+#include "array_list2.hpp"
 
 int main() {
     unsigned int n;
@@ -10,19 +10,17 @@ int main() {
     for (unsigned int i = 0; i < n; ++i) {
         int x;
         std::cin >> x;
-        l1.push_back(x); // adicionando elemento ao final do vetor 
+        l1.push_front(x); // adicionando elemento a l1
     }
-    bool resultado = l1.pop_front();
+    unsigned int resultado = l1.size();
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
-    if (resultado){
-        std::cerr << "[INFO] " << "Elapsed time for "
-        << "True" << " pop front "
-        << elapsed.count() << std::endl;
-    }else{
-    std::cerr << "[INFO] " << "Elapsed time for "
-        << "False" << " pop front "
-        << elapsed.count() << std::endl;
+    if (not (resultado == n)) {
+        std::cerr << "[ERROR] check push_front method!\n";
+        exit(1);
     }
+    std::cerr << "[INFO] " << "Elapsed time for "
+        << n << " pushes front: "
+        << elapsed.count() << std::endl;
     return 0;
 }

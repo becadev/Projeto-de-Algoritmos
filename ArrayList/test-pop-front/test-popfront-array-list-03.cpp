@@ -12,9 +12,10 @@ int main() {
         std::cin >> x;
         l1.push_back(x); // adicionando elemento ao final do vetor 
     }
+    bool resultado = l1.pop_front();
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
-    if (l1.pop_front()){
+    if (resultado){
         std::cerr << "[INFO] " << "Elapsed time for "
         << "True" << " pop front "
         << elapsed.count() << std::endl;

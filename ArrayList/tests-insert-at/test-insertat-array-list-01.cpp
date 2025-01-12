@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include "array_list3.hpp"
+#include "array_list1.hpp"
 
 int main() {
     unsigned int n, index, value;
@@ -15,9 +15,11 @@ int main() {
         std::cin >> x;
         l1.push_back(x); // adicionando elemento ao final do vetor 
     }
+    bool resultado = l1.insert_at(index, value);
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
-    if (l1.insert_at(index, value)){
+
+    if (resultado){
         std::cerr << "[INFO] " << "Elapsed time for "
         << "True, the value " << value << " Insert at " << index << ": " << elapsed.count() << std::endl;
     }else{

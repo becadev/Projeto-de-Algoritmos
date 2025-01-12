@@ -12,9 +12,10 @@ int main() {
         std::cin >> x;
         l1.push_front(x); // adicionando elemento a l1
     }
+    unsigned int resultado = l1.size();
     auto end = std::chrono::high_resolution_clock::now(); // nanosegundos
     auto elapsed = end - beg;
-    if (not (l1.size() == n)) {
+    if (not (resultado == n)) {
         std::cerr << "[ERROR] check push_front method!\n";
         exit(1);
     }
