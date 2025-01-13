@@ -71,4 +71,4 @@ g++ -Wall -o programa test-pop-front/test-popfront-array-list-01.cpp -I.
 ## Desempenho: 
 O gráfico a seguir representa o desempenho e o tempo de execução das três formas distintas de aumento de array implementadas. O método Push-Back foi a implementação escolhida como parâmetro para essa análise por ser o método principal utilizado para incrementar os vetores nas classes de testes dos métodos:
 
-<img src="gráfico.png">
+<img src="grafico.png">
