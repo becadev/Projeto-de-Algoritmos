@@ -1,0 +1,22 @@
+# Sum
+
+ArrayList-1
+[INFO] Elapsed time to return the sum 15 of the vector : 2083
+[INFO] Elapsed time to return the sum 130 of the vector : 2975
+[INFO] Elapsed time to return the sum 1019145 of the vector : 153477
+[INFO] Elapsed time to return the sum 4041452 of the vector : 431516
+[INFO] Elapsed time to return the sum 9052918 of the vector : 576848
+
+ArrayList-2
+[INFO] Elapsed time to return the sum 15 of the vector : 2094
+[INFO] Elapsed time to return the sum 130 of the vector : 2805
+[INFO] Elapsed time to return the sum 1019145 of the vector : 306552
+[INFO] Elapsed time to return the sum 4041452 of the vector : 395349
+[INFO] Elapsed time to return the sum 9052918 of the vector : 954673
+
+ArrayList-3
+[INFO] Elapsed time to return the sum 15 of the vector : 2174
+[INFO] Elapsed time to return the sum 130 of the vector : 3777
+[INFO] Elapsed time to return the sum 1019145 of the vector : 159969
+[INFO] Elapsed time to return the sum 4041452 of the vector : 298357
+[INFO] Elapsed time to return the sum 9052918 of the vector : 557511

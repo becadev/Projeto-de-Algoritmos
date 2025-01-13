@@ -1,0 +1,22 @@
+# Find
+
+ArrayList-1
+[INFO] Elapsed time to find value 18: 2956
+[INFO] Elapsed time to find value 185: 13555
+[INFO] Elapsed time to find value 1299: 151733
+[INFO] Elapsed time to not find value 8043: 3025781
+[INFO] Elapsed time to find value 31035: 11375566
+
+ArrayList-2
+[INFO] Elapsed time to find value 18: 2976
+[INFO] Elapsed time to find value 185: 13455
+[INFO] Elapsed time to find value 1299: 139471
+[INFO] Elapsed time to not find value 8043: 2254711
+[INFO] Elapsed time to find value 31035: 4423501
+
+ArrayList-3
+[INFO] Elapsed time to find value 18: 3777
+[INFO] Elapsed time to find value 185: 30407
+[INFO] Elapsed time to find value 1299: 272208
+[INFO] Elapsed time to not find value 8043: 1841659
+[INFO] Elapsed time to find value 31035: 3894063

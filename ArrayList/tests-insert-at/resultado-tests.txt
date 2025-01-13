@@ -1,0 +1,22 @@
+# Insert_at
+
+ArrayList-1
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 4408
+[INFO] Elapsed time for True, the value 15 Insert at 5: 4107
+[INFO] Elapsed time for True, the value 1 Insert at 55: 180456
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 426464
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 646424
+
+ArrayList-2
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 3947
+[INFO] Elapsed time for True, the value 15 Insert at 5: 3967
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 563450
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 548071
+
+ArrayList-3
+
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 3437
+[INFO] Elapsed time for True, the value 15 Insert at 5: 5009
+[INFO] Elapsed time for True, the value 15 Insert at 5: 5030
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 313394
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 560093

@@ -1,0 +1,22 @@
+# Pop-back
+
+ArrayList-1
+[INFO] Elapsed time for True pop back: 2074
+[INFO] Elapsed time for True pop back: 2615
+[INFO] Elapsed time for True pop back: 152555
+[INFO] Elapsed time for True pop back: 344524
+[INFO] Elapsed time for True pop back: 784534
+
+ArrayList-2
+[INFO] Elapsed time for True pop back 3266
+[INFO] Elapsed time for True pop back 4438
+[INFO] Elapsed time for True pop back 230980
+[INFO] Elapsed time for True pop back 512815
+[INFO] Elapsed time for True pop back 569141
+
+ArrayList-3
+[INFO] Elapsed time for True pop back 2074
+[INFO] Elapsed time for True pop back 3727
+[INFO] Elapsed time for True pop back 147244
+[INFO] Elapsed time for True pop back 299288
+[INFO] Elapsed time for True pop back 579510

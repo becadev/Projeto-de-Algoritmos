@@ -1,0 +1,22 @@
+# Clear
+
+ArrayList-1
+[INFO] Elapsed time to clear the vector : 3016
+[INFO] Elapsed time to clear the vector : 4058
+[INFO] Elapsed time to clear the vector : 152825
+[INFO] Elapsed time to clear the vector : 416428
+[INFO] Elapsed time to clear the vector : 1183390
+
+ArrayList-2
+[INFO] Elapsed time to clear the vector : 3266
+[INFO] Elapsed time to clear the vector : 5530
+[INFO] Elapsed time to clear the vector : 140593
+[INFO] Elapsed time to clear the vector : 385180
+[INFO] Elapsed time to clear the vector : 613266
+
+ArrayList-3
+[INFO] Elapsed time to clear the vector : 2985
+[INFO] Elapsed time to clear the vector : 3767
+[INFO] Elapsed time to clear the vector : 147435
+[INFO] Elapsed time to clear the vector : 401247
+[INFO] Elapsed time to clear the vector : 765179

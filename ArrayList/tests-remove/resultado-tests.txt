@@ -1,0 +1,16 @@
+# Remove
+
+ArrayList-1
+[INFO] Elapsed time to remove value 1: 2815
+[INFO] Elapsed time to not remove value 1900: 3566
+[INFO] Elapsed time to remove value 2225: 711719
+
+ArrayList-2
+[INFO] Elapsed time to remove value 1: 1824
+[INFO] Elapsed time to not remove value 1900: 3457
+[INFO] Elapsed time to remove value 2225: 383937
+
+ArrayList-3
+[INFO] Elapsed time to remove value 1: 4679
+[INFO] Elapsed time to not remove value 1900: 4488
+[INFO] Elapsed time to remove value 2225: 446123

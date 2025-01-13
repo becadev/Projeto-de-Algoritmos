@@ -1,0 +1,22 @@
+# Count
+
+ArrayList-1
+[INFO] Elapsed time to count value 5 in vector is 2: 2986
+[INFO] Elapsed time to count value 34 in vector is 6: 10690
+[INFO] Elapsed time to count value 55 in vector is 110: 218017
+[INFO] Elapsed time to count value 156 in vector is 1: 305621
+[INFO] Elapsed time to count value 555 in vector is 10: 2352684
+
+ArrayList-2
+[INFO] Elapsed time to count value 5 in vector is 2: 2905
+[INFO] Elapsed time to count value 34 in vector is 6: 10540
+[INFO] Elapsed time to count value 55 in vector is 110: 103353
+[INFO] Elapsed time to count value 156 in vector is 1: 241121
+[INFO] Elapsed time to count value 555 in vector is 10: 1275091
+
+ArrayList-3
+[INFO] Elapsed time to count value 5 in vector is 2: 3987
+[INFO] Elapsed time to count value 34 in vector is 6: 13876
+[INFO] Elapsed time to count value 55 in vector is 110: 109905
+[INFO] Elapsed time to count value 156 in vector is 1: 218578
+[INFO] Elapsed time to count value 555 in vector is 10: 1228534

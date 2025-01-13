@@ -1,0 +1,22 @@
+# Get At
+
+ArrayList-1
+[INFO] Elapsed time for -1 invalid index : 2324
+[INFO] Elapsed time for value index 5 is 20: 2926
+[INFO] Elapsed time for value index 55 is 1707: 151312
+[INFO] Elapsed time for value index 1991 is 745: 445631
+[INFO] Elapsed time for value index 2994 is 1757: 724750
+
+ArrayList-2
+[INFO] Elapsed time for -1 invalid index : 3487
+[INFO] Elapsed time for value index 5 is 20: 2915
+[INFO] Elapsed time for value index 55 is 1707: 139710
+[INFO] Elapsed time for value index 1991 is 745: 305248
+[INFO] Elapsed time for value index 2994 is 1757: 541298
+
+ArrayList-3
+[INFO] Elapsed time for -1 invalid index : 2345
+[INFO] Elapsed time for value index 5 is 20: 3847
+[INFO] Elapsed time for value index 55 is 1707: 145962
+[INFO] Elapsed time for value index 1991 is 745: 374508
+[INFO] Elapsed time for value index 2994 is 1757: 551788

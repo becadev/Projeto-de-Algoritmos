@@ -1,0 +1,22 @@
+# Percent occupied
+
+ArrayList-1
+[INFO] Elapsed time to return the percent occupied of 0.2 of the vector : 3386
+[INFO] Elapsed time to return the percent occupied of 0.1 of the vector : 3927
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 205564
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 426667
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 559886
+
+ArrayList-2
+[INFO] Elapsed time to return the percent occupied of 2.0 of the vector : 3857
+[INFO] Elapsed time to return the percent occupied of 1.0 of the vector : 3917
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 141926
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 312223
+[INFO] Elapsed time to return the percent occupied of 0.01 of the vector : 860879
+
+ArrayList-3
+[INFO] Elapsed time to return the percent occupied of 0.0 of the vector : 5030
+[INFO] Elapsed time to return the percent occupied of 0.0 of the vector : 4899
+[INFO] Elapsed time to return the percent occupied of 0.0 of the vector : 149059
+[INFO] Elapsed time to return the percent occupied of 0.0 of the vector : 400127
+[INFO] Elapsed time to return the percent occupied of 0.0 of the vector : 697523

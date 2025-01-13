@@ -1,0 +1,37 @@
+# REMOVEAT
+
+ArrayList-1
+e1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 1593
+e2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 1663
+
+ArrayList-2
+e1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 2555
+e2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 2765
+
+ArrayList-3
+e1:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 1522
+e2:
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 1623

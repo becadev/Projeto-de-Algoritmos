@@ -1,0 +1,22 @@
+# Front
+
+ArrayList-1
+[INFO] Elapsed time to return value 1, the first of the vector : 2064
+[INFO] Elapsed time to return value 15, the first of the vector : 2705
+[INFO] Elapsed time to return value 1448, the first of the vector : 181238
+[INFO] Elapsed time to return value 3590, the first of the vector : 449239
+[INFO] Elapsed time to return value 2982, the first of the vector : 621871
+
+ArrayList-2
+[INFO] Elapsed time to return value 1, the first of the vector : 2154
+[INFO] Elapsed time to return value 15, the first of the vector : 2665
+[INFO] Elapsed time to return value 1448, the first of the vector : 141955
+[INFO] Elapsed time to return value 3590, the first of the vector : 391090
+[INFO] Elapsed time to return value 2982, the first of the vector : 553243
+
+ArrayList-3
+[INFO] Elapsed time to return value 1, the first of the vector : 2124
+[INFO] Elapsed time to return value 15, the first of the vector : 3777
+[INFO] Elapsed time to return value 1448, the first of the vector : 147626
+[INFO] Elapsed time to return value 3590, the first of the vector : 421517
+[INFO] Elapsed time to return value 2982, the first of the vector : 457454

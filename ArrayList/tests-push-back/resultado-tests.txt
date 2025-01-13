@@ -1,0 +1,22 @@
+# PUSH-BACK 
+
+Testes ArrayList-1:
+[INFO] Elapsed time for 5 pushes back: 2214
+[INFO] Elapsed time for 10 pushes front: 3707
+[INFO] Elapsed time for 1000 pushes front: 264935
+[INFO] Elapsed time for 2000 pushes front: 567981
+[INFO] Elapsed time for 3000 pushes front: 519741
+
+Testes ArrayList-2:
+[INFO] Elapsed time for 5 pushes back: 2133
+[INFO] Elapsed time for 10 pushes back: 2645
+[INFO] Elapsed time for 1000 pushes back: 256840
+[INFO] Elapsed time for 2000 pushes back: 461271
+[INFO] Elapsed time for 3000 pushes back: 571146
+
+Testes ArrayList-3:
+[INFO] Elapsed time for 5 pushes back: 2104
+[INFO] Elapsed time for 10 pushes back: 3817
+[INFO] Elapsed time for 1000 pushes back: 217947
+[INFO] Elapsed time for 2000 pushes back: 418862
+[INFO] Elapsed time for 3000 pushes back: 646407
