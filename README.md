@@ -3,11 +3,10 @@
 
 Tópicos presente neste documento:
  1. [Estrutura do projeto](#struct)
- 2. [Implementações](#implementation)
- 3. [Como realizar testes](#tests)
- 4. [Desempenho](#performance)
- 5. [Aprendizados](#learnings)
- 6. [Conclusão](#conclusion)
+ 2. [Como realizar testes](#tests)
+ 3. [Desempenho](#performance)
+ 4. [Aprendizados](#learnings)
+ 5. [Conclusão](#conclusion)
 
 *******
 
@@ -46,4 +45,36 @@ Seguindo a seguinte organização:
     |__ linked_list3.hpp
   
 ```
+<div id='tests'/>  
 
+## Como realizar testes: 
+
+-> Baixar o arquivo contendo todos os diretórios; </br>
+-> Abrir o diretório raiz da classe que deseja executa (ArrayList ou LinkedList)
+``` cpp
+cd ArrayList
+```
+-> Compilar: 
+``` cpp
+g++ -Wall -o programa nome-da-pasta-do-arquivo/nome-do-arquivo -I.
+./programa < Casos-testes/nome-da-pasta-de-teste/e1.txt >> nome-do-arquivo-que-deseja-salvar.txt 2>&1
+```
+Exemplo:
+``` cpp
+g++ -Wall -o programa test-pop-front/test-popfront-array-list-01.cpp -I.
+./programa < tests/remove/e1.txt >> test-pop-front/resultado-tests.txt 2>&1
+```
+-> O resultado do teste será encaminhado para o resultado-tests.txt, mostrando as informações sobre o return do método e o tempo de execução;
+
+<div id='performance'/>  
+
+## Desempenho: 
+O gráfico a seguir representa o desempenho e o tempo de execução das três formas distintas de aumento de array implementadas. O método Push-Back foi a implementação escolhida como parâmetro para essa análise por ser o método principal utilizado para incrementar os vetores nas classes de testes dos métodos:
+
+### ArrayList
+<img src="grafico.png">
+
+### LinkedList
+<img src="grafico_linkedlist.png">
+
+Em relação a mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já acerca de mudanças mais drásticas acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
