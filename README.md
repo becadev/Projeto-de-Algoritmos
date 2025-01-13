@@ -81,11 +81,13 @@ g++ -Wall -o programa test-pop-front/test-popfront-array-list-01.cpp -I.
 O gráfico a seguir representa o desempenho e o tempo de execução das três formas distintas de aumento de array implementadas. O método Push-Back foi a implementação escolhida como parâmetro para essa análise por ser o método principal utilizado para incrementar os vetores nas classes de testes dos métodos:
 
 ### ArrayList
-<img src="grafico.png">
+<img src="grafico.png"></br>
+A respeito de mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já em relação a mudanças acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
+Outro ponto acerca do aumento da capacidade da Array list é no método percent-occupied, onde nos testes realizados foi possível visualizar que a ocupação é mínima quando utilizado o método de duplicar a capacidade da array para aumento de capacidade.
 
 ### LinkedList
 <img src="grafico_linkedlist.png">
 
-A respeito a mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já em relação a mudanças acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
+
 
 
