@@ -46,4 +46,9 @@ Seguindo a seguinte organização:
     |__ linked_list3.hpp
   
 ```
+<div id='implementation'/>  
+
+## Implementações: 
+
+1. Adição -> Push_back, push_front
 
