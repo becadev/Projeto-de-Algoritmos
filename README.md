@@ -7,8 +7,6 @@ Tópicos presente neste documento:
  3. [Resultado dos testes realizados](#result)
  4. [Como realizar testes](#tests)
  5. [Desempenho](#performance)
- 6. [Aprendizados](#learnings)
- 7. [Conclusão](#conclusion)
 
 *******
 <div id='struct'/>  
@@ -51,9 +49,8 @@ Seguindo a seguinte organização:
 
 ## Resultado dos testes realizados:
 
-O resultado dos testes 
-
-
+O resultado dos testes relizados para averiguar o funcionamento correto dos métodos estão localizados no diretório de teste das distintas implementações, nomeado como resultado-tests.txt.
+Sendo estruturado de acordo com o tipo de capacidade de classe utilizada.
 
 *******
 <div id='tests'/>  
@@ -61,7 +58,7 @@ O resultado dos testes
 ## Como realizar testes: 
 
 -> Baixar o arquivo contendo todos os diretórios; </br>
--> Abrir o diretório raiz da classe que deseja executa (ArrayList ou LinkedList)
+-> Abrir o diretório raiz da classe que deseja executa (ArrayList ou LinkedList):
 ``` cpp
 cd ArrayList
 ```
@@ -89,4 +86,6 @@ O gráfico a seguir representa o desempenho e o tempo de execução das três fo
 ### LinkedList
 <img src="grafico_linkedlist.png">
 
-Em relação a mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já acerca de mudanças mais drásticas acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
+A respeito a mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já em relação a mudanças acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
+
+
