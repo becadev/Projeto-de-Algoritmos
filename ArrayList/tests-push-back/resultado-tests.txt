@@ -20,3 +20,5 @@ Testes ArrayList-3:
 [INFO] Elapsed time for 1000 pushes back: 217947
 [INFO] Elapsed time for 2000 pushes back: 418862
 [INFO] Elapsed time for 3000 pushes back: 646407
+
+g++ -Wall -o programa tests-push-back/test-pushback-list-01.cpp -I.
