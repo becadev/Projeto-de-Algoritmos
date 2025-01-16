@@ -81,7 +81,8 @@ O gráfico a seguir representa o desempenho e o tempo de execução das três fo
 ### ArrayList
 <img src="grafico.png"></br>
 A respeito de mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já em relação a mudanças acima de 1000, é notório uma diferença mais abrangente. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações.
-Outro ponto acerca do aumento da capacidade da Array list é no método percent-occupied, onde nos testes realizados foi possível visualizar que a ocupação é mínima quando utilizado o método de duplicar a capacidade da array para aumento de capacidade.
+Outro ponto acerca do aumento da capacidade da Array list é no método percent-occupied, onde nos testes realizados foi possível visualizar que a ocupação é mínima quando utilizado o método de duplicar a capacidade da array para aumento de capacidade. <\br>
+Comparando o ArrayList e LinkedList, é possível que alguns métodos aparentam ser mais velozes utilizando LinkedList em vez de ArrayList, métodos como inserir ao ínicio do array e em indices específicos. Já os de busca por índices se tornam mais vantajosos utilizando o ArrayList.
 
 ### LinkedList
 <img src="grafico_linkedlist.png">
