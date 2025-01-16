@@ -67,8 +67,8 @@ g++ -Wall -o programa nome-da-pasta-do-arquivo/nome-do-arquivo -I.
 ```
 Exemplo:
 ``` cpp
-g++ -Wall -o programa test-pop-front/test-popfront-array-list-01.cpp -I.
-./programa < tests/remove/e1.txt >> test-pop-front/resultado-tests02.txt 2>&1
+g++ -Wall -o programa tests-push-back/test-pushback-array-list-01.cpp -I.
+./programa < tests/push/e1.txt >> tests-push-back/resultado-tests02.txt 2>&1
 ```
 -> O resultado do teste será encaminhado para o resultado-tests02.txt que será criada ao compilar os arquivos, mostrando as informações sobre o return do método e o tempo de execução;
 
