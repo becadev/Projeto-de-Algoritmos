@@ -46,9 +46,7 @@ public:
         if(this->size_ == this->capacity_) // caso não seja inválido, mas houver necessidade de aumentar a capacidade
             increase_capacity_();
         for (unsigned int i = this->size_ ; i > index ; i--){ // inicia o loop no indice oferecido
-            if (i == index){ // adicionando valor no index oferecido
                 this->data[i] = this->data[i-1]; // move os elementos de posição
-            }
         }
         this->data[index] = value; // colocando value no index oferecido
         this->size_++; // atualizando tamanho do vetor;

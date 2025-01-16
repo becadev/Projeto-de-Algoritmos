@@ -40,15 +40,13 @@ public:
         return static_cast<double>((this->capacity_)/(this->size_))/100.0;
     } // Desempenho Big(O) -> O(1)
 
-    bool insert_at(unsigned int index, int value) { // Insere elemento no índice index
+     bool insert_at(unsigned int index, int value) { // Insere elemento no índice index
         if(index > this->size_) // se o index for maior que o tamanho do vetor, será inválido
             return false;
         if(this->size_ == this->capacity_) // caso não seja inválido, mas houver necessidade de aumentar a capacidade
             increase_capacity_();
         for (unsigned int i = this->size_ ; i > index ; i--){ // inicia o loop no indice oferecido
-            if (i == index){ // adicionando valor no index oferecido
                 this->data[i] = this->data[i-1]; // move os elementos de posição
-            }
         }
         this->data[index] = value; // colocando value no index oferecido
         this->size_++; // atualizando tamanho do vetor;
