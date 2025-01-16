@@ -50,8 +50,7 @@ Seguindo a seguinte organização:
 
 ## Resultado dos testes realizados:
 
-O resultado dos testes relizados para averiguar o funcionamento correto dos métodos estão localizados no diretório de teste das distintas implementações, nomeado como resultado-tests.txt.
-Sendo estruturado de acordo com o tipo de capacidade de classe utilizada. Além disso,as análises de desempenho Big(O) estão presentes de forma comentada ao longo dos métodos.
+O resultado dos testes relizados para averiguar o funcionamento e o desemprenho dos métodos estão localizados no diretório de teste das distintas implementações, nomeado como resultado-tests.txt. Além disso, as análises de desempenho Big(O) estão presentes de forma comentada ao longo dos métodos.
 
 *******
 <div id='tests'/>  
