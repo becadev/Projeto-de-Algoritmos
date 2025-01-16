@@ -80,7 +80,7 @@ g++ -Wall -o programa tests-push-back/test-pushback-array-list-01.cpp -I.
 ## ArrayList: 
 A estrutura do ArrayList é realizada por meio de alocação dinâmica, onde a memória deve ser liberada manualmente, operações de inserção e remoção mostram-se menos eficientes do que o uso de uma LinkedList, porém, uso de métodos para busca de valores e/ou índices se tornam mais vantajosos no uso de uma ArrayList.
 O gráfico a seguir representa o desempenho e o tempo de execução das três formas distintas de aumento de ArrayList implementadas. O método Push-Back foi a implementação escolhida como parâmetro para essa análise por ser o método principal utilizado para incrementar os vetores nas classes de testes dos métodos:
-<img src="grafico.png"></br>
+<img src="grafico_array.PNG"></br>
 A respeito de mudanças mínimas do tamanho de entrada como 5 e 10 (coluna azul e vermelha respectivamente), notasse uma diferença básica de tempo de execução. Já em relação a mudanças acima de 1000, é notório uma diferença mais significativa. Observando assim, que o método de duplicar a capacidade se mostra melhor em relação a tempo de execução e desempenho em relação as implementações, principlamente em tamanhos de entradas maiores.
 
 *******
