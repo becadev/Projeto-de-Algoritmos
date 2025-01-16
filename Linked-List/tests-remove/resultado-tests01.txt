@@ -1,0 +1,2 @@
+[INFO] Elapsed time to remove value 1: 6863
+[INFO] Elapsed time to remove value 2225: 530909

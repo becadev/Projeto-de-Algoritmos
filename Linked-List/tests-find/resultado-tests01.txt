@@ -1,0 +1,5 @@
+[INFO] Elapsed time to find value 3: 4197
+[INFO] Elapsed time to find value 4: 32541
+[INFO] Elapsed time to find value 66: 303746
+[INFO] Elapsed time to not find value -1: 2704679
+[INFO] Elapsed time to find value 188: 4923644

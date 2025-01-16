@@ -1,0 +1,5 @@
+[INFO] Elapsed time to return value 2, the last of the vector : 3066
+[INFO] Elapsed time to return value 13, the last of the vector : 3907
+[INFO] Elapsed time to return value 371, the last of the vector : 263631
+[INFO] Elapsed time to return value 3669, the last of the vector : 444689
+[INFO] Elapsed time to return value 450, the last of the vector : 625466

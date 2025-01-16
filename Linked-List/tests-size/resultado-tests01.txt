@@ -1,0 +1,5 @@
+[INFO] Elapsed time to return the size 5 of the vector : 2445
+[INFO] Elapsed time to return the size 10 of the vector : 3036
+[INFO] Elapsed time to return the size 1000 of the vector : 173022
+[INFO] Elapsed time to return the size 2000 of the vector : 463644
+[INFO] Elapsed time to return the size 3000 of the vector : 702780

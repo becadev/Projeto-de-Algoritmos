@@ -1,0 +1,5 @@
+[INFO] Elapsed time to return the sum 15 of the vector : 4018
+[INFO] Elapsed time to return the sum 130 of the vector : 3416
+[INFO] Elapsed time to return the sum 1019145 of the vector : 295250
+[INFO] Elapsed time to return the sum 4041452 of the vector : 488110
+[INFO] Elapsed time to return the sum 9052918 of the vector : 621117

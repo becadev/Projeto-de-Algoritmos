@@ -1,0 +1,5 @@
+[INFO] Elapsed time for 5 pushes front: 2354
+[INFO] Elapsed time for 10 pushes front: 3146
+[INFO] Elapsed time for 1000 pushes front: 227584
+[INFO] Elapsed time for 2000 pushes front: 459516
+[INFO] Elapsed time for 3000 pushes front: 968053

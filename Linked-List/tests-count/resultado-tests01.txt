@@ -1,0 +1,5 @@
+[INFO] Elapsed time to count value 5 in vector is 2: 4328
+[INFO] Elapsed time to count value 34 in vector is 6: 15468
+[INFO] Elapsed time to count value 55 in vector is 110: 250337
+[INFO] Elapsed time to count value 156 in vector is 1: 448175
+[INFO] Elapsed time to count value 555 in vector is 10: 1677375

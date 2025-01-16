@@ -1,0 +1,5 @@
+[INFO] Elapsed time for 5 pushes back: 3507
+[INFO] Elapsed time for 10 pushes back: 4819
+[INFO] Elapsed time for 1000 pushes back: 271846
+[INFO] Elapsed time for 2000 pushes back: 637417
+[INFO] Elapsed time for 3000 pushes back: 2202404

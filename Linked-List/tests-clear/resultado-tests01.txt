@@ -1,0 +1,4 @@
+[INFO] Elapsed time to clear the vector : 4949
+[INFO] Elapsed time to clear the vector : 4749
+[INFO] Elapsed time to clear the vector : 243323
+[INFO] Elapsed time to clear the vector : 490283

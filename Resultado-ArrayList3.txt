@@ -1,1 +1,0 @@
-g++ -Wall -o programa test-push-back/test-push-array-list-01.cpp -I.

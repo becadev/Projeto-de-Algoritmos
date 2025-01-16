@@ -1,0 +1,5 @@
+[INFO] Elapsed time to return value 1, the first of the vector : 2435
+[INFO] Elapsed time to return value 15, the first of the vector : 3095
+[INFO] Elapsed time to return value 1448, the first of the vector : 345393
+[INFO] Elapsed time to return value 3590, the first of the vector : 346174
+[INFO] Elapsed time to return value 2982, the first of the vector : 618102

@@ -1,0 +1,5 @@
+[INFO] Elapsed time for True, the value 3 Insert at 10: 5360
+[INFO] Elapsed time for True, the value 15 Insert at 5: 7304
+[INFO] Elapsed time for True, the value 1 Insert at 55: 251660
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 436433
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 932357

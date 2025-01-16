@@ -1,7 +1,6 @@
 #ifndef __LINKED_LIST_IFRN__
 #define __LINKED_LIST_IFRN__
 
-
 class linked_list {
     private:
         struct int_node {
@@ -9,31 +8,69 @@ class linked_list {
             int_node* next, * prev;
         };
         int_node* head, * tail;        // armazena o primeiro e o ultimo elemento da lista 
-        unsigned int size_, capacity_;
+        unsigned int size_;
     public:
         linked_list() { // contrutor
             this->head = nullptr;
             this->tail = nullptr;
             this->size_ = 0;
         }
-        ~linked_list() {
-           int_node  *old_node = new int_node;
-            // while : enquanto o proximo do atual não for igual a null
-            // vai deletando nó por nó
+        ~linked_list() { //Libera a memória alocada.
+           int_node  *old_node = this->head;
+           while(old_node->next != nullptr){ // Loop até chegar o ultimo nó da lista, deletando nó por nó
+                int_node* excluir = old_node->next;
+                delete[] old_node;  
+                old_node = excluir;
+           }
         }
         unsigned int size() { // Retorna a quantidade de elementos armazenados
             return this->size_;
         } // Desempenho Big(O) : O(1)
-        // unsigned int capacity() // Retorna o espaço reservado para armazenar os elementos --> não há necessidade de ter esse método já que os elementos não inseridos em ordem e também não estão dinamicamente armazenado em um espaço da memória
-        double percent_occupied() {} // Retorna um valor entre 0.0 a 1.0 com o percentual da memória usada.
-        bool insert_at(unsigned int index, int value) {} // Insere elemento no índice index
-        bool remove_at(unsigned int index) {} // Remove elemento do índice index
 
+        // unsigned int capacity() // Retorna o espaço reservado para armazenar os elementos --> não há necessidade de ter esse método nesse tipo de lista já que os elementos não inseridos em ordem e também não estão dinamicamente armazenado em um espaço da memória
+        // double percent_occupied() // Não há necessidade de ter pois o espaço na memória não é alocado dinamicamente
+
+        bool insert_at(unsigned int index, int value) { // Insere elemento no índice index
+            int_node * elemento = this->head;
+            if (index < 0 || index > this->size_)
+                return false;
+            int_node * proximo  = elemento-> next;
+            int_node * anterior = elemento-> prev;
+            elemento = proximo;
+            for (unsigned int i = 0 ; i < index ; i ++){
+                proximo  = elemento-> next;
+                anterior = elemento-> prev;
+            }
+            int_node *indice = new int_node;
+            indice->value = value;
+            anterior->next = indice;
+            proximo->prev  = indice;
+            this->size_++;
+            return true;
+        } // Desempenho big(O) : O(n) 
+        bool remove_at(unsigned int index) { // Remove elemento do índice index
+            int_node * elemento = this->head;
+            if (index < 0 || index > this->size_)
+                return false;
+            int_node * proximo  = elemento-> next;
+            int_node * anterior = elemento-> prev;
+            for (unsigned int i = 0 ; i < index ; i ++){
+                proximo  = elemento-> next;
+                anterior = elemento-> prev;
+                elemento = proximo;
+            }
+            int_node *remover = anterior -> next;
+            anterior->next = remover->next;
+            proximo->prev  = remover->prev;
+            delete remover;
+            this->size_--;
+            return true;
+        } // Desempenho big(O) : O(n)
         int get_at(unsigned int index) { // Retorna elemento no índice index, −1 se índice inválido
             if (index > this->size_)
                 return -1;
             int_node* atual = this->head;
-            for (int i = 0; i < index ; i++){ // percorrer toda lista até chega ao indice desejado
+            for (unsigned int i = 0; i < index ; i++){ // percorrer toda lista até chega ao indice desejado
                 atual = atual-> next;
             }
             return atual->value; // retornar o valor presente no index oferecido
@@ -113,7 +150,7 @@ class linked_list {
         } // Desempenho Big(O) : O(1)
         bool remove(int value){ // Remove value do vetor caso esteja presente
             int_node* atual = this->head; 
-            for (int i = 0 ; i < size_ ; i++){
+            for (unsigned int i = 0 ; i < size_ ; i++){
                 if(atual->value == value){
                     return true;
                 }
@@ -123,12 +160,36 @@ class linked_list {
             int_node* antecessor = atual->prev;
             antecessor->next = atual->next;
             delete atual;
+            this->size_--;
             return false;
         } // Desempenho Big(O) : O(n)
         int find(int value) { // Retorna o índice de value, −1 caso value não esteja presente
-
-        } 
-        int count(int value) {} // Retorna quantas vezes value occorre no vetor
-        int sum() {} // Retorna a soma dos elementos do vetor
+            int_node * atual = this->head; // aponta para o primeiro nó
+            for(unsigned int i = 0; i < this->size_ ; i++){ // percorre os nós
+                if (atual->value == value)
+                    return i;
+                atual = atual->next; // vai para o próximo valor da lista de nós
+            }
+            return -1;
+        } // Desempenho big(O) : O(n)
+        int count(int value) { // Retorna quantas vezes value occorre no vetor
+            int cont = 0;
+            int_node * atual = this->head; // aponta para o primeiro nó
+            for(unsigned int i = 0; i < this->size_ ; i++){ // percorre os nós
+                if (atual->value == value)
+                    cont+= 1;
+                atual = atual->next; // vai para o próximo valor da lista de nós
+            }
+            return cont;
+        } // Desempenho big(O) : O(n)
+        int sum() { // Retorna a soma dos elementos do vetor
+            int soma = 0;
+            int_node * atual = this->head; // aponta para o primeiro nó
+            for(unsigned int i = 0; i < this->size_ ; i++){ // percorre os nós
+                soma+= atual->value; // soma valor
+                atual = atual->next; // vai para o próximo valor da lista de nós
+            }
+            return soma;
+        } // Desempenho big(O) : O(n) 
 };
 #endif // __LINKED_LIST_IFRN__

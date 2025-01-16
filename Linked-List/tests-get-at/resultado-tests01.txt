@@ -1,0 +1,5 @@
+[INFO] Elapsed time for -1 invalid index : 5080
+[INFO] Elapsed time for value index 5 is 20: 5831
+[INFO] Elapsed time for value index 55 is 1707: 264152
+[INFO] Elapsed time for value index 1991 is 745: 451993
+[INFO] Elapsed time for value index 2994 is 1757: 626016

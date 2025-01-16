@@ -1,0 +1,5 @@
+[INFO] Elapsed time for True pop front 4007
+[INFO] Elapsed time for True pop front 6823
+[INFO] Elapsed time for True pop front 282627
+[INFO] Elapsed time for True pop front 646354
+[INFO] Elapsed time for True pop front 916397
