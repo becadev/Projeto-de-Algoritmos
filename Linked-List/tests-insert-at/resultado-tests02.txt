@@ -1,0 +1,5 @@
+[INFO] Elapsed time for False, the value 3 not Insert at 10: 4308
+[INFO] Elapsed time for True, the value 15 Insert at 5: 19957
+[INFO] Elapsed time for True, the value 1 Insert at 55: 258572
+[INFO] Elapsed time for True, the value 4 Insert at 1991: 484703
+[INFO] Elapsed time for True, the value 7 Insert at 2994: 811001

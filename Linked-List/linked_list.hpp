@@ -19,7 +19,7 @@ class linked_list {
            int_node  *old_node = this->head;
            while(old_node->next != nullptr){ // Loop até chegar o ultimo nó da lista, deletando nó por nó
                 int_node* excluir = old_node->next;
-                delete[] old_node;  
+                delete old_node;  
                 old_node = excluir;
            }
         }
@@ -31,20 +31,27 @@ class linked_list {
         // double percent_occupied() // Não há necessidade de ter pois o espaço na memória não é alocado dinamicamente
 
         bool insert_at(unsigned int index, int value) { // Insere elemento no índice index
-            int_node * elemento = this->head;
-            if (index < 0 || index > this->size_)
+            if (index > this->size_)
                 return false;
-            int_node * proximo  = elemento-> next;
-            int_node * anterior = elemento-> prev;
-            elemento = proximo;
-            for (unsigned int i = 0 ; i < index ; i ++){
-                proximo  = elemento-> next;
-                anterior = elemento-> prev;
+            if (index == 0 ){ // em caso do indice ser 0
+                push_front(value);
+                return true;
             }
-            int_node *indice = new int_node;
-            indice->value = value;
-            anterior->next = indice;
-            proximo->prev  = indice;
+            if (index == this->size_){ // em caso do indice ser o ultimo da lista
+                push_back(value);
+                return true;
+            }
+            int_node * elemento = this->head;
+ 
+            for (unsigned int i = 0 ; i < index ; i ++){
+                elemento = elemento->next;
+            }
+            int_node* new_elemento = elemento;
+            new_elemento->value = value;
+            new_elemento->prev = elemento->prev;
+            if(elemento->prev != nullptr)     
+                elemento->prev->next = new_elemento;
+            elemento->prev = new_elemento;
             this->size_++;
             return true;
         } // Desempenho big(O) : O(n) 

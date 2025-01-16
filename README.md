@@ -85,7 +85,3 @@ Outro ponto acerca do aumento da capacidade da Array list é no método percent-
 
 ### LinkedList
 <img src="grafico_linkedlist.png">
-
-
-
-
